@@ -1,0 +1,26 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "asa-astrajs": [
+          "./packages/astrajs"
+        ],
+        "asa-address-converter": [
+          "./packages/address-converter/*"
+        ],
+        "asa-eip712": [
+          "packages/eip712"
+        ],
+        "asa-proto": [
+          "packages/proto"
+        ],
+        "asa-provider": [
+          "./packages/provider/*"
+        ],
+        "asa-transactions": [
+          "./packages/transactions/*"
+        ]
+    }
+  }
+}
